@@ -113,10 +113,10 @@ nav a:hover {
   }
 
   navigation {
-    width: 150px;
+    width: 300px;
     height: auto;
   }
-  hero {
+  article image {
     width: 200px;
     height: auto;
     float: right;
