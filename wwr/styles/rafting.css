@@ -103,10 +103,7 @@ nav a:hover {
   article {
     position: absolute;
   }
-  images/happy.png  {
-    float: right;
-  }
-  section {
+    section {
     font-family: var(--heading-font);
     color: var(--primary-color);
     display: grid;
@@ -115,11 +112,12 @@ nav a:hover {
     display: grid;
   }
 
-  nav img {
+  navigation {
     width: 150px;
     height: auto;
   }
-  div img {
-    width: 150px;
+  hero-image {
+    width: 200px;
     height: auto;
+    float: right;
   }
