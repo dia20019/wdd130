@@ -20,7 +20,7 @@ body {
     padding: 20px;
   }
       
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, figcaption {
     font-family: var(--heading-font);
     color: var(--secondary-color);
   }
@@ -113,7 +113,7 @@ nav a:hover {
   }
 
   navigation {
-    width: 300px;
+    width: 100px;
     height: auto;
   }
   main image {
