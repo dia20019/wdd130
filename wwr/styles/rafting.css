@@ -46,6 +46,7 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    image-resolution: 300px;
   }
 .navigation {
 	display: flex;
@@ -116,9 +117,4 @@ nav a:hover {
   }
   footer {
     display: grid;
-  }
-
-  navigation {
-    width: 30%;
-    height: auto;
   }
