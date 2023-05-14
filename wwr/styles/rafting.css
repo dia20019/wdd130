@@ -99,7 +99,9 @@ nav a:hover {
     position: relative;
   }
   hero-image {
-    position: absolute;
+    width: 200px;
+    height: auto;
+    float: right;
   }
   h1 {
     position: absolute;
@@ -119,9 +121,4 @@ nav a:hover {
   navigation {
     width: 30%;
     height: auto;
-  }
-  main image {
-    width: 200px;
-    height: auto;
-    float: right;
   }
