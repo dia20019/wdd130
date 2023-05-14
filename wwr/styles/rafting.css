@@ -95,14 +95,10 @@ nav a:hover {
     display: block;
     width: 100%;
     height: auto;
+    float: right;
   }
   hero {
     position: relative;
-  }
-  hero-image {
-    width: 200px;
-    height: auto;
-    float: right;
   }
   h1 {
     position: absolute;
