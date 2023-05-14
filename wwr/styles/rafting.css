@@ -114,11 +114,11 @@ nav a:hover {
   footer {
     display: grid;
   }
-  article img {
-    width: 300px;
+
+  nav img {
+    width: 150px;
     height: auto;
   }
-  nav figure {
-    width: 300px;
+  div img {
+    width: 150px;
     height: auto;
-  }
