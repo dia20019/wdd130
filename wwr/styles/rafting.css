@@ -114,7 +114,7 @@ nav a:hover {
   footer {
     display: grid;
   }
-ul image {
+.ul img {
   width: 30%;
   height: auto;
 }
