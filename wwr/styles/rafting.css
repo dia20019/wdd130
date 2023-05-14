@@ -114,23 +114,27 @@ nav a:hover {
   footer {
     display: grid;
   }
-  white1 {
-    max-width: 50%;
+  white1.jpg {
+    max-width: 10%;
     height: auto;
   }
-  white2 {
-    max-width: 50%;
+  white2.jpg {
+    max-width: 10%;
     height: auto;
   }
-  white3 {
-    max-width: 50%;
+  white3.jpg {
+    max-width: 10%;
     height: auto;
   }
-  white4 {
-    max-width: 50%;
+  white4.jpg {
+    max-width: 10%;
     height: auto;
   }
-  white5 {
-    max-width: 50%;
+  white5.jpg {
+    max-width: 10%;
+    height: auto;
+  }
+  happy.png {
+    max-width: 20%;
     height: auto;
   }
