@@ -51,18 +51,14 @@ nav {
 	flex: 1 1 100%;
 }
 
-.navigation a {
+.navigation figure {
 	display: block;
 	color: accent1-color;
 	padding: 20px;
 	text-decoration: none;
+  min-width: 150px;
 }
 
-.navigation a:hover {
-	color: accent2-color;
-	font-weight: 700;
-	text-decoration: none;
-}
 nav a {
     display: block;
     color: var(--nav-link-color);
