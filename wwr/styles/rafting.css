@@ -1,0 +1,104 @@
+@import url('https://fonts.google.com/specimen/Sigmar');
+@import url('https://fonts.google.com/specimen/Shadows+Into+Light');
+:root {
+    --primary-color: #4c061d;
+    --secondary-color: #d17a22;
+    --accent1-color: #b4c292;
+    --accent2-color: #736f4e;
+  
+    --heading-font: 'Sigmar', serif;
+    --paragraph-font: 'Shadows+Into+Light', serif;
+  
+    --nav-background-color: #4c061d;
+    --nav-link-color: #d17a22;
+    --nav-hover-link-color: #b4c292;
+    --nav-hover-background-color: #736f4e;
+  }     
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+      
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+    font-size: 50px;
+    }
+p {
+    padding: 25px;
+  }
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+.navigation {
+	display: flex;
+	list-style: none;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+
+  a:link { text-decoration: none; }
+
+
+  a:visited { text-decoration: none; }
+  
+  
+  a:hover { text-decoration: none; }
+  
+  
+  a:active { text-decoration: none; }
+
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  hero {
+    position: relative;
+  }
+  hero-image {
+    position: absolute;
+  }
+  h1 {
+    position: absolute;
+  }
+  article {
+    position: absolute;
+  }
+  images/happy.png  {
+    float: right;
+  }
+  section {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    display: grid;
+  }
+  footer {
+    display: grid;
+  }
