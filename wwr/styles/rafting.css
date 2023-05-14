@@ -114,27 +114,11 @@ nav a:hover {
   footer {
     display: grid;
   }
-  white1.jpg {
-    max-width: 10%;
+  article img {
+    width: 300px;
     height: auto;
   }
-  white2.jpg {
-    max-width: 10%;
-    height: auto;
-  }
-  white3.jpg {
-    max-width: 10%;
-    height: auto;
-  }
-  white4.jpg {
-    max-width: 10%;
-    height: auto;
-  }
-  white5.jpg {
-    max-width: 10%;
-    height: auto;
-  }
-  happy.png {
-    max-width: 20%;
+  nav figure {
+    width: 300px;
     height: auto;
   }
