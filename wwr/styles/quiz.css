@@ -1,0 +1,82 @@
+@import url('https://fonts.google.com/specimen/Sigmar');
+@import url('https://fonts.google.com/specimen/Shadows+Into+Light');
+:root {
+    --primary-color: #4c061d;
+    --secondary-color: #d17a22;
+    --accent1-color: #b4c292;
+    --accent2-color: #736f4e;
+  
+    --heading-font: 'Sigmar', serif;
+    --paragraph-font: 'Shadows+Into+Light', serif;
+  
+    --nav-background-color: #4c061d;
+    --nav-link-color: #d17a22;
+    --nav-hover-link-color: #b4c292;
+    --nav-hover-background-color: #736f4e;
+  }       
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: var(--paragraph-font);
+    font-size: 1.2em;
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
+  }
+  header {
+    margin: 0 auto;
+    width: 650px;
+  }
+  form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+    display: grid;
+  }
+  fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+  }
+  legend {
+    padding: 0.5rem;
+    color: var(--accent2-color);
+    font-size: 1.3em;
+  }
+  label {
+    text-align: center;
+    padding-right: 1rem;
+  }
+  input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+  }
+  button {
+    margin: 1rem;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+  }
+  
+  button:hover {
+    background-color: darkgreen;
+  }
+  footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: var(--primary-color);
+    border-top: 1px solid var(--secondary-color);
+  }
+  
