@@ -156,3 +156,16 @@ nav a:hover {
   button:hover {
     background-color: darkgreen;
   }
+  table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+  }
+  table, th {
+    background-color: #d17a22;
+    font-family: var(--heading-font);
+  }
+  table, td {
+    background-color: #b4c292;
+    font-family: var(--paragraph-font);
+  }
